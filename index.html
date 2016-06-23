@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  </head>
+  <body ng-app="NearMeApp">
+    
+    <div class="header">
+      <div class="container-fluid">
+        <h1 class="pull-left">NearMe</h1>
+      </div>
+    </div>
+
+    <div class="main" ng-controller="MainController">
+      <div class="container-fluid" id="map-canvas">
+        
+      </div>
+    </div>
+
+    <!-- Modules -->
+    <script src="js/app.js"> </script>
+
+    <!-- Controllers -->
+
+
+    <!-- Directives -->
+    <script src="js/vendor/leaflet.js"></script>
+    <script src="js/vendor/angular-leaflet-directive.min.js"></script>
+
+    <!-- Services -->
+    
+  </body>
+</html>
