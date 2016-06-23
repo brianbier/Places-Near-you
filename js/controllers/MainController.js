@@ -1,8 +1,8 @@
 app.controller('MainController',['$scope','places',function($scope, places){
     $scope.mapCenter = {
-        lat: 40.856279, 
-        lng: -73.937328,
-        zoom: 17
+        lat: 40.775634,
+        lng:  -73.972939,
+        zoom: 15
     }
     
     // Calls the places service success function, and once it receives the data, places it into the $scope.geodata variable, which can then be used in the view.
