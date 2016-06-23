@@ -1,1 +1,1 @@
-var app = angular.module('NearMeApp',[]);
+var app = angular.module('NearMeApp',['leaflet-directive']);
